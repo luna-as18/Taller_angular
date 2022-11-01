@@ -1,0 +1,20 @@
+
+<table class="table table-borderless" id="seriestable">
+  <caption id="tablecaption"> {{ caption }} </caption>
+  <thead>
+      <tr>
+          <th> # </th>
+          <th> Name </th>
+          <th> Channel </th>
+          <th> Seasons </th>
+      </tr>
+  </thead>
+  <tbody id="tbody">
+      <tr *ngFor="let s of series">
+          <th scope="row"> {{ s.id }} </th>
+          <td> {{ s.name }} </td>
+          <td> {{ s.channel }} </td>
+          <td> {{ s.seasons }} </td>
+      </tr>
+  </tbody>
+</table>
