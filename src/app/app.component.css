@@ -1,3 +1,10 @@
-* [lang^=en] {
-  color: green;
+#head{
+  background-color: #20a0b7;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    color:aliceblue
+
 }
+
+
